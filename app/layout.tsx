@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   description: "Video Calling App",
   icons: {
     icon: "/icons/logo.svg"
-  }
+  },
+
 };
 
 export default function RootLayout({
@@ -38,6 +39,10 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
+        <head>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2559454197596106"
+            crossOrigin="anonymous"></script>
+        </head>
         <body className={`${inter.className} bg-dark-2`}>
           <Providers>
             {children}
